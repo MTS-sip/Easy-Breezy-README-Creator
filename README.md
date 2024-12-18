@@ -28,8 +28,8 @@ User runs app in terminal via (bash) command: ``node index.js``
 
 ## Images
 
-1. [img1](Easy-Breezy-README-Creator/assets/video-sample-generated-readme-pg1.png)
-2. [img2](Easy-Breezy-README-Creator/assets/video-sample-generated-readme-pg2.png)
+1. [Page 1 of Generated README](./Easy-Breezy-README-Creator/assets/1video-sample.jpeg)
+2. [Page 2 of Generated README](./Easy-Breezy-README-Creator/assets/2video-sample.jpeg)
 
 ## License
 
