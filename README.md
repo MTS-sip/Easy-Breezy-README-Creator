@@ -22,14 +22,15 @@
 ## Usage & Testing 
 
 This app may be used via an IDE(e.g. VS Code) by cloning Repo code or otherwise downloading it for intended use from a MTS-Sip Repo @
-[Github](https://github.com/MTS-sip/Easy-Breezy-README-Creator), [SSH] (git@github.com:MTS-sip/Easy-Breezy-README-Creator.git)
+[Github](https://github.com/MTS-sip/Easy-Breezy-README-Creator), [SSH] ``git@github.com:MTS-sip/Easy-Breezy-README-Creator.git``
 
 User runs app in terminal via (bash) command: ``node index.js``
 
 ## Images
 
-1. [Page 1 of Generated README](./Easy-Breezy-README-Creator/assets/1video-sample.jpeg)
-2. [Page 2 of Generated README](./Easy-Breezy-README-Creator/assets/2video-sample.jpeg)
+Images located in assets folder, are snips from video showing a sample of user generated README. 
+1. [Pic-Page 1](./Easy-Breezy-README-Creator/assets/1video-sample.jpeg)
+2. [Pic Page 2](./Easy-Breezy-README-Creator/assets/2video-sample.jpeg)
 
 ## License
 
