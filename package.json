@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "## User Story",
+  "description": "README generator",
   "main": "index.js",
   "type": "module",
   "scripts": {
