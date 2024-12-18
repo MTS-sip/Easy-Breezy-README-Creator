@@ -44,7 +44,7 @@ Key technology used for this Project include:
 - Node.js [Nodejs](https://nodejs.org/en)
 - GitHub [Github](https://github.com/)
 - npm Inquirer.js 12.2.0 [Inquirer](https://www.npmjs.com/package/inquirer)
-- CoPilot for GitHub 
+- CoPilot for GitHub: Critical in implementation of ES6 dir_name work around
 
 ## Contributing
 MTS-Sip @ [https://github.com/MTS-sip]
