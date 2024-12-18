@@ -65,7 +65,7 @@ const renderLicenseBadge = (license) => {
   
   ## Questions
   
-  If you have questions, feel free to reach out:
+  If you have additional questions, feel free to reach me at email below:
   - GitHub: [${data.github}](https://github.com/${data.github})
   - Email: [${data.email}](mailto:${data.email})
   `;

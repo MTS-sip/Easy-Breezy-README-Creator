@@ -1,6 +1,12 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import generateMarkdown from './utils/generateMarkdown.js';
+
+// Get the directory name for the current file (ES6 workaround for __dirname)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Array of questions for user input
 const questions = [
@@ -16,12 +22,17 @@ const questions = [
 ];
 
 // Function to write the README file
-const writeToFile = (fileName, data) => {
-  fs.writeFile(fileName, data, (err) => {
+const writeToFile = (directory, fileName, data) => {
+  // Ensure the directory exists
+  fs.mkdirSync(directory, { recursive: true });
+  const filePath = path.join(directory, fileName);
+
+  // Write the file
+  fs.writeFile(filePath, data, (err) => {
     if (err) {
       console.error('Error writing file:', err);
     } else {
-      console.log('README file successfully generated!');
+      console.log(`README file successfully generated at ${filePath}`);
     }
   });
 };
@@ -31,7 +42,12 @@ const init = async () => {
   try {
     const answers = await inquirer.prompt(questions);
     const markdownContent = generateMarkdown(answers);
-    writeToFile('README.md', markdownContent);
+
+    // Define output directory
+    const outputDir = path.join(__dirname, 'dist');
+
+    // Write the README file to the specified directory
+    writeToFile(outputDir, 'README.md', markdownContent);
   } catch (error) {
     console.error('Error initializing app:', error);
   }
