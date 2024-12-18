@@ -16,7 +16,6 @@ function renderLicenseLink(license) {
     'BSD 3-Clause': 'https://opensource.org/licenses/BSD-3-Clause',
   };
   return licenseLinks[license];
-
 }
 
 // TODO: Create a function that returns the license section of README
@@ -29,18 +28,13 @@ This project is licensed under the [${license}](${renderLicenseLink(license)}) l
 }
 
 
-// TODO: Create a function to generate markdown for README
-/*function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
-}
-*/
 function generateMarkdown(data) {
   return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
+
 ## Description
+
 ${data.description}
 ## Table of Contents
 - [Installation](#installation)
@@ -70,14 +64,14 @@ ${data.tests}
 
 ## Questions
 
-If you have any questions, you can contact me at:
+If you have questions, please contact me at:
 - GitHub: [${data.github}](https://github.com/${data.github})
 - Email: [${data.email}](mailto:${data.email})
 `;
 }
 
-module.exports = generateMarkdown;
-
+//module.exports = generateMarkdown;
+module.exports = questions;
 
 
 export default generateMarkdown;
