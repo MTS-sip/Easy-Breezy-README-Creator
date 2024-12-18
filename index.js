@@ -1,10 +1,11 @@
+// Imports
 import inquirer from 'inquirer';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-// Get the directory name for the current file (ES6 workaround for __dirname)
+// Get directory name, current file, ES6 workaround __dirname)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -23,11 +24,10 @@ const questions = [
 
 // Function to write the README file
 const writeToFile = (directory, fileName, data) => {
-  // Ensure the directory exists
   fs.mkdirSync(directory, { recursive: true });
   const filePath = path.join(directory, fileName);
 
-  // Write the file
+  
   fs.writeFile(filePath, data, (err) => {
     if (err) {
       console.error('Error writing file:', err);
@@ -46,7 +46,7 @@ const init = async () => {
     // Define output directory
     const outputDir = path.join(__dirname, 'dist');
 
-    // Write the README file to the specified directory
+    // Write the README file to specified directory
     writeToFile(outputDir, 'README.md', markdownContent);
   } catch (error) {
     console.error('Error initializing app:', error);

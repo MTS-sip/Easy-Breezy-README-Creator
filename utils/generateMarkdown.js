@@ -71,5 +71,5 @@ const renderLicenseBadge = (license) => {
   `;
   };
   
-  // Export the generateMarkdown function
+  // Export generateMarkdown function
   export default generateMarkdown;
