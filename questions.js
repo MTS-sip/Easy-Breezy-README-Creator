@@ -1,5 +1,6 @@
 // Description: This file contains the questions that will be asked to the user when they run the application.
-    const questions = [
+/*    
+const questions = [
         {
             type: 'input',
             name: 'title',
@@ -49,3 +50,4 @@
         ];
     
     module.exports = questions;
+*/
