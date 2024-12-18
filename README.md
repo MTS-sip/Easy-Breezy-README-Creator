@@ -2,6 +2,8 @@
   
  Repo, public @ [GitHub](https://github.com/MTS-sip/Easy-Breezy-README-Creator)
 
+ Screencastify video demonstration [video](https://app.screencastify.com/v2/manage/videos/GGCxVFNndK7vehrQWUQB)
+
   
   ## Description
 
@@ -19,13 +21,16 @@
 
 ## Usage & Testing 
 
-This app may be used via an IDE(e.g. VS Code) by cloning code or otherwise downloading it for intended use from a MTS-Sip Repo,
+This app may be used via an IDE(e.g. VS Code) by cloning Repo code or otherwise downloading it for intended use from a MTS-Sip Repo @
 [Github](https://github.com/MTS-sip/Easy-Breezy-README-Creator), [SSH] (git@github.com:MTS-sip/Easy-Breezy-README-Creator.git)
 
-User runs app in terminal via (bash) command: node index.js
+User runs app in terminal via (bash) command: ``node index.js``
 
 ## Images
- 
+
+1. [img1](Easy-Breezy-README-Creator/assets/video-sample-generated-readme-pg1.png)
+2. [img2](Easy-Breezy-README-Creator/assets/video-sample-generated-readme-pg2.png)
+
 ## License
 
 ![License] This project is licensed under the [MIT](https://opensource.org/licenses/MIT)  
