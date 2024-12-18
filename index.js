@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import generateMarkdown from './utils/generateMarkdown.js';
 
-// Get directory name, current file, ES6 workaround __dirname)
+// Get directory name, current file, ES6 workaround __dirname, CoPilot
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
