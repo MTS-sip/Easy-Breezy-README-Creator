@@ -2,12 +2,12 @@
   
  Repo, public @ [GitHub](https://github.com/MTS-sip/Easy-Breezy-README-Creator)
 
- Screencastify video demonstration [video](https://app.screencastify.com/v2/manage/videos/GGCxVFNndK7vehrQWUQB)
+ **🔴 Screencastify Demonstration Video 🔴** : To access video > [Click here](https://drive.google.com/file/d/1ui4sQf1hbW0I37NBYRCwjkeF1PGJS1fY/view) Watch to view application's functionality.
 
   
   ## Description
 
-  App allows user to easily create a professional README md file, which facilitates user having more time for creating code for their Project/Repo.
+  CLI App allows user to easily create a professional README md file, which facilitates user having more time for creating code for their Project/Repo.
   
   
   ## Table of Contents
@@ -28,13 +28,14 @@ User runs app in terminal via (bash) command: ``node index.js``
 
 ## Images
 
-Images located in assets folder, are snips from video showing a sample of user generated README. 
-1. [Pic-Page 1](./Easy-Breezy-README-Creator/assets/1video-sample.jpeg)
-2. [Pic Page 2](./Easy-Breezy-README-Creator/assets/2video-sample.jpeg)
+Images located in assets folder, are screenshots from video showing a sample of user generated README. 
+
+1. [Example: User Generated README, Pic Pg 1](./assets/1video-sample.jpeg)
+2. [Example: User Generated README, Pic Pg 2](./assets/2video-sample.jpeg)
 
 ## License
 
-![License] This project is licensed under the [MIT](https://opensource.org/licenses/MIT)  
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT)  
 ![License Badge](https://img.shields.io/badge/LICENSE-MIT-yellow)
 
 ## Technology
@@ -44,7 +45,7 @@ Key technology used for this Project include:
 - Node.js [Nodejs](https://nodejs.org/en)
 - GitHub [Github](https://github.com/)
 - npm Inquirer.js 12.2.0 [Inquirer](https://www.npmjs.com/package/inquirer)
-- CoPilot for GitHub: Critical in implementation of ES6 dir_name work around
+- [CoPilot for GitHub:](https://github.com/features/copilot) Useful in implementation of ES6 dir_name work around
 
 ## Contributing
 MTS-Sip @ [https://github.com/MTS-sip]
@@ -54,33 +55,34 @@ MTS-Sip @ [https://github.com/MTS-sip]
 ![README](https://github.com/MTS-sip/Easy-Breezy-README-Creator/blob/main/README.md)
 
 ## User Story
-AS A developer  
-I WANT a README generator  
-SO THAT I can quickly create a professional README for a new project
+
+- AS A developer  
+- I WANT a README generator  
+- SO THAT I can quickly create a professional README for a new project
 
 ## Acceptance Criteria
 
- GIVEN a command-line application that accepts user input,
+ - GIVEN a command-line application that accepts user input,
 
- WHEN I am prompted for information about my application repository
- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, 
- Installation, Usage, License, Contributing, Tests, and Questions.
+ - WHEN I am prompted for information about my application repository
+ - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, 
+ - Installation, Usage, License, Contributing, Tests, and Questions.
 
- WHEN I enter my project title
- THEN it is displayed as the title of the README.
+ - WHEN I enter my project title
+ - THEN it is displayed as the title of the README.
 
- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
+ - WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+ - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
 
- WHEN I choose a license for my application from a list of options
- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
+ - WHEN I choose a license for my application from a list of options
+ - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
- WHEN I enter my GitHub username
- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile.
+ - WHEN I enter my GitHub username
+ - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile.
 
- WHEN I enter my email address
- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
+ - WHEN I enter my email address
+ - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
 
- WHEN I click on the links in the Table of Contents
- THEN I am taken to the corresponding section of the README.
+ - WHEN I click on the links in the Table of Contents
+ - THEN I am taken to the corresponding section of the README.
   
